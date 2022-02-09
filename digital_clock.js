@@ -11,7 +11,7 @@ function updateClock () {
     pe = 'AM';
 
     // nama hari
-    day_names = ['Minggu','Senin','Selasa','Rabau','Kamis',"Jum'at",'Sabtu'];
+    day_names = ['Sunday','Monday','Tuesday','Wednesday','Thursday',"Friday",'Saturday'];
     // console.log(day_name);
     // if (day_name == 0) {
     //     day_name = 7;
@@ -28,7 +28,7 @@ function updateClock () {
     // document.getElementsByClassName('month')[0].innerHTML = result_mo;
 
     function mo_name () {
-        mo_name = ['Januari','February','Maret', 'April','Mei', 'Juni', 'Juli','Agustus','September','Oktober','November','Desember'];
+        mo_name = ['January','February','March', 'April','May', 'June', 'July','August','September','October','November','December'];
         const result_mo = mo_name[mo];
         document.getElementsByClassName('month')[0].innerHTML = result_mo;
     }
